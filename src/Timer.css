@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    padding: 40px calc((100% - (255px * 3)) / 2);
+  }
+  
+  .container button {
+     height: 80px;
+     flex: 0 0 215px;
+     margin: 1em 20px;
+     border: 2px blue solid;
+     font-size: large;
+  }
+  .container-writing{
+    
+    border: 2px blue solid;
+    width:700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .container-writing h1{
+font-size: 50px;
+  }
+  
