@@ -12,7 +12,7 @@ function Timer() {
     setOperstors(functionmat.match(/[\*\+\-\/\%]/g));
     if (operators && operators.length >= 1 && numbers && numbers.length >= 2) {
       let firstgrade = numbers.map((str) => parseFloat(Number(str)));
-      console.log(firstgrade, numbers);
+     
       let newOperators = [...operators];
 
       newOperators.forEach((element, index) => {
@@ -32,7 +32,7 @@ function Timer() {
           firstgrade[index + 1] = newRezultat;
         }
       });
-      console.log(firstgrade, numbers);
+    
 
       let operatorsfirstgrade = ["*", "/", "%"];
       for (let i = newOperators.length - 1; i >= 0; i--) {
